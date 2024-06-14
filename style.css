@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pokemon-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.caught {
+    background-color: #d4edda;
+}
