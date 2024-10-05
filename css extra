@@ -1,14 +1,14 @@
-/* Reset some basic styles */
+/* Reset basic styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body styling with a bright gradient background */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Bright gradient from pink to orange */
     color: #333;
     min-height: 100vh;
     display: flex;
@@ -18,10 +18,10 @@ body {
 
 /* Container styling */
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white to show gradient */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     max-width: 1000px;
     width: 90%;
     margin: auto;
@@ -31,8 +31,8 @@ body {
 h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #ffcc00;
-    text-shadow: 2px 2px #555;
+    color: #ffcc00; /* Bright yellow */
+    text-shadow: 3px 3px #ff7e5f; /* Soft shadow to blend with background */
 }
 
 /* Pokemon gallery styling */
@@ -45,27 +45,27 @@ h1 {
 
 /* Individual card styling */
 .pokemon-card {
-    background-color: #fafafa;
+    background-color: #fff;
     border-radius: 10px;
-    padding: 15px;
+    padding: 20px;
     margin: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     width: 200px;
 }
 
 .pokemon-card img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     margin-bottom: 15px;
 }
 
 .pokemon-card h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #444;
+    color: #ff7e5f; /* Matching the gradient's pink */
 }
 
 .pokemon-card p {
@@ -76,24 +76,24 @@ h1 {
 /* Hover effect for cards */
 .pokemon-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Load More button styling */
 #load-more {
     background-color: #ffcc00;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 1.2rem;
     color: #333;
     border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 #load-more:hover {
     background-color: #ffaa00;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
@@ -116,6 +116,6 @@ h1 {
 
     #load-more {
         font-size: 1rem;
-        padding: 8px 16px;
+        padding: 10px 20px;
     }
 }
