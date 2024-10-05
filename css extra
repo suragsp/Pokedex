@@ -1,11 +1,11 @@
-/* Reset basic styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling with a bright gradient background */
+
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Bright gradient from pink to orange */
@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-/* Container styling */
+
 .container {
     background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white to show gradient */
     padding: 20px;
@@ -27,7 +27,7 @@ body {
     margin: auto;
 }
 
-/* Header styling */
+
 h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -35,7 +35,7 @@ h1 {
     text-shadow: 3px 3px #ff7e5f; /* Soft shadow to blend with background */
 }
 
-/* Pokemon gallery styling */
+
 #pokemon-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +43,7 @@ h1 {
     margin-top: 30px;
 }
 
-/* Individual card styling */
+
 .pokemon-card {
     background-color: #fff;
     border-radius: 10px;
@@ -73,13 +73,12 @@ h1 {
     color: #666;
 }
 
-/* Hover effect for cards */
+
 .pokemon-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Load More button styling */
 #load-more {
     background-color: #ffcc00;
     border: none;
@@ -97,7 +96,7 @@ h1 {
     cursor: pointer;
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 768px) {
     .pokemon-card {
         width: 150px;
